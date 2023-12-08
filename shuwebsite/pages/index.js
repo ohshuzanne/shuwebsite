@@ -1,9 +1,11 @@
 import React from "react";
+import HeroSection from "@/components/HeroSection";
+//first page next.js goes into is index, so it is why it's so important
 
 export default function Home(){ //default home
   return (
-    <div class="dalton">
-      Hello Dalton! I'm Penis!
+    <div className="flex min-h-screen flex-col">
+        <HeroSection />
     </div>
   );
 }
